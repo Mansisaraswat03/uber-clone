@@ -1,9 +1,9 @@
 "use client"
 import React,{useState} from 'react'
 import Image from 'next/image'
-import GooglePlacesAutoComplete from 'react-google-places-autocomplete'
+// import GooglePlacesAutoComplete from 'react-google-places-autocomplete'
 const InputItem = ({type}) => {
-    const [value,setValue] =useState(null);
+    // const [value,setValue] =useState(null);
   return (
     <div className='flex items-center gap-4 bg-slate-200 p-3 rounded-lg mt-3'>
       <Image src='/src.png' width={20} height={10}/>
